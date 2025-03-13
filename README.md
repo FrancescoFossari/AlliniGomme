@@ -16,3 +16,6 @@ Gestione Gomme è un'app iOS sviluppata in SwiftUI per la ricerca rapida degli p
 - Xcode 13+  
 
 🚀 **Perfetta per officine e gommisti che vogliono digitalizzare il proprio magazzino!**
+
+N.B.
+File di Testo rimosso per garantire la privacy degli utenti e dei clienti!
