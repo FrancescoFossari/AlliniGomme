@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A7F510C22D822BF800D7E28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F510A92D822BF700D7E28F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F510B02D822BF700D7E28F;
+			remoteInfo = AlliniGomme;
+		};
+		A7F510CC2D822BF800D7E28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F510A92D822BF700D7E28F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F510B02D822BF700D7E28F;
+			remoteInfo = AlliniGomme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7F510B12D822BF700D7E28F /* AlliniGomme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlliniGomme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F510C12D822BF800D7E28F /* AlliniGommeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlliniGommeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F510CB2D822BF800D7E28F /* AlliniGommeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlliniGommeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A7F510E52D830CC700D7E28F /* Exceptions for "AlliniGomme" folder in "AlliniGommeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				deposito_pulito.txt,
+			);
+			target = A7F510C02D822BF800D7E28F /* AlliniGommeTests */;
+		};
+		A7F510E62D830CC700D7E28F /* Exceptions for "AlliniGomme" folder in "AlliniGommeUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				deposito_pulito.txt,
+			);
+			target = A7F510CA2D822BF800D7E28F /* AlliniGommeUITests */;
+		};
+		A7F510E82D830EBB00D7E28F /* Exceptions for "AlliniGomme" folder in "AlliniGomme" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A7F510B02D822BF700D7E28F /* AlliniGomme */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A7F510B32D822BF700D7E28F /* AlliniGomme */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A7F510E82D830EBB00D7E28F /* Exceptions for "AlliniGomme" folder in "AlliniGomme" target */,
+				A7F510E52D830CC700D7E28F /* Exceptions for "AlliniGomme" folder in "AlliniGommeTests" target */,
+				A7F510E62D830CC700D7E28F /* Exceptions for "AlliniGomme" folder in "AlliniGommeUITests" target */,
+			);
+			path = AlliniGomme;
+			sourceTree = "<group>";
+		};
+		A7F510C42D822BF800D7E28F /* AlliniGommeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlliniGommeTests;
+			sourceTree = "<group>";
+		};
+		A7F510CE2D822BF800D7E28F /* AlliniGommeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlliniGommeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F510AE2D822BF700D7E28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F510BE2D822BF800D7E28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F510C82D822BF800D7E28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F510A82D822BF700D7E28F = {
+			isa = PBXGroup;
+			children = (
+				A7F510B32D822BF700D7E28F /* AlliniGomme */,
+				A7F510C42D822BF800D7E28F /* AlliniGommeTests */,
+				A7F510CE2D822BF800D7E28F /* AlliniGommeUITests */,
+				A7F510B22D822BF700D7E28F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F510B22D822BF700D7E28F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F510B12D822BF700D7E28F /* AlliniGomme.app */,
+				A7F510C12D822BF800D7E28F /* AlliniGommeTests.xctest */,
+				A7F510CB2D822BF800D7E28F /* AlliniGommeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F510B02D822BF700D7E28F /* AlliniGomme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F510D52D822BF800D7E28F /* Build configuration list for PBXNativeTarget "AlliniGomme" */;
+			buildPhases = (
+				A7F510AD2D822BF700D7E28F /* Sources */,
+				A7F510AE2D822BF700D7E28F /* Frameworks */,
+				A7F510AF2D822BF700D7E28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7F510B32D822BF700D7E28F /* AlliniGomme */,
+			);
+			name = AlliniGomme;
+			packageProductDependencies = (
+			);
+			productName = AlliniGomme;
+			productReference = A7F510B12D822BF700D7E28F /* AlliniGomme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F510C02D822BF800D7E28F /* AlliniGommeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F510D82D822BF800D7E28F /* Build configuration list for PBXNativeTarget "AlliniGommeTests" */;
+			buildPhases = (
+				A7F510BD2D822BF800D7E28F /* Sources */,
+				A7F510BE2D822BF800D7E28F /* Frameworks */,
+				A7F510BF2D822BF800D7E28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F510C32D822BF800D7E28F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7F510C42D822BF800D7E28F /* AlliniGommeTests */,
+			);
+			name = AlliniGommeTests;
+			packageProductDependencies = (
+			);
+			productName = AlliniGommeTests;
+			productReference = A7F510C12D822BF800D7E28F /* AlliniGommeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F510CA2D822BF800D7E28F /* AlliniGommeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F510DB2D822BF800D7E28F /* Build configuration list for PBXNativeTarget "AlliniGommeUITests" */;
+			buildPhases = (
+				A7F510C72D822BF800D7E28F /* Sources */,
+				A7F510C82D822BF800D7E28F /* Frameworks */,
+				A7F510C92D822BF800D7E28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F510CD2D822BF800D7E28F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7F510CE2D822BF800D7E28F /* AlliniGommeUITests */,
+			);
+			name = AlliniGommeUITests;
+			packageProductDependencies = (
+			);
+			productName = AlliniGommeUITests;
+			productReference = A7F510CB2D822BF800D7E28F /* AlliniGommeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F510A92D822BF700D7E28F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A7F510B02D822BF700D7E28F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A7F510C02D822BF800D7E28F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7F510B02D822BF700D7E28F;
+					};
+					A7F510CA2D822BF800D7E28F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7F510B02D822BF700D7E28F;
+					};
+				};
+			};
+			buildConfigurationList = A7F510AC2D822BF700D7E28F /* Build configuration list for PBXProject "AlliniGomme" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F510A82D822BF700D7E28F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A7F510B22D822BF700D7E28F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F510B02D822BF700D7E28F /* AlliniGomme */,
+				A7F510C02D822BF800D7E28F /* AlliniGommeTests */,
+				A7F510CA2D822BF800D7E28F /* AlliniGommeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F510AF2D822BF700D7E28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F510BF2D822BF800D7E28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F510C92D822BF800D7E28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F510AD2D822BF700D7E28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F510BD2D822BF800D7E28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F510C72D822BF800D7E28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F510C32D822BF800D7E28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F510B02D822BF700D7E28F /* AlliniGomme */;
+			targetProxy = A7F510C22D822BF800D7E28F /* PBXContainerItemProxy */;
+		};
+		A7F510CD2D822BF800D7E28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F510B02D822BF700D7E28F /* AlliniGomme */;
+			targetProxy = A7F510CC2D822BF800D7E28F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7F510D32D822BF800D7E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7F510D42D822BF800D7E28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F510D62D822BF800D7E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlliniGomme/Preview Content\"";
+				DEVELOPMENT_TEAM = WAA5Z77R6H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlliniGomme/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "L'app necessita dell'accesso alla fotocamera per scansionare le targhe";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Francesco.AlliniGomme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F510D72D822BF800D7E28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlliniGomme/Preview Content\"";
+				DEVELOPMENT_TEAM = WAA5Z77R6H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlliniGomme/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "L'app necessita dell'accesso alla fotocamera per scansionare le targhe";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Francesco.AlliniGomme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7F510D92D822BF800D7E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAA5Z77R6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francesco.AlliniGommeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlliniGomme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlliniGomme";
+			};
+			name = Debug;
+		};
+		A7F510DA2D822BF800D7E28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAA5Z77R6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francesco.AlliniGommeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlliniGomme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlliniGomme";
+			};
+			name = Release;
+		};
+		A7F510DC2D822BF800D7E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAA5Z77R6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francesco.AlliniGommeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlliniGomme;
+			};
+			name = Debug;
+		};
+		A7F510DD2D822BF800D7E28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAA5Z77R6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Francesco.AlliniGommeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlliniGomme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F510AC2D822BF700D7E28F /* Build configuration list for PBXProject "AlliniGomme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F510D32D822BF800D7E28F /* Debug */,
+				A7F510D42D822BF800D7E28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F510D52D822BF800D7E28F /* Build configuration list for PBXNativeTarget "AlliniGomme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F510D62D822BF800D7E28F /* Debug */,
+				A7F510D72D822BF800D7E28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F510D82D822BF800D7E28F /* Build configuration list for PBXNativeTarget "AlliniGommeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F510D92D822BF800D7E28F /* Debug */,
+				A7F510DA2D822BF800D7E28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F510DB2D822BF800D7E28F /* Build configuration list for PBXNativeTarget "AlliniGommeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F510DC2D822BF800D7E28F /* Debug */,
+				A7F510DD2D822BF800D7E28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F510A92D822BF700D7E28F /* Project object */;
+}
